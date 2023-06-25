@@ -31,6 +31,16 @@ public class Main {
                 System.out.println("Float: " + myFloatWrapper);
                 System.out.println("Double: " + myDoubleWrapper);
                 System.out.println("Long: " + myLongWrapper);
+
+
+             int number = 345;
+                System.out.print("Число " + number + " -> ");
+
+                int digit1 = number / 100;  
+                int digit2 = (number / 10) % 10;  
+                int digit3 = number % 10; 
+
+                System.out.println(digit1 + ", " + digit2 + ", " + digit3);
             }
         }
 
